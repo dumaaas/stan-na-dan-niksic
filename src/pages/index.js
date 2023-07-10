@@ -987,16 +987,39 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1464.3057032676124!2d18.957918308921073!3d42.77543315990363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1689018516309!5m2!1sen!2s"
-          width="100%"
-          height="450"
-          style={{ border: 0 }}
-          allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+      <div className="flex w-full h-[450px] overflow-auto relative">
+        <div className="items-center relative z-[30] xl:px-[80px] lg:px-[50px] px-[30px] w-full mx-auto sm:flex hidden">
+          <div className="text-white flex flex-col">
+            <div className="w-full h-full flex flex-col">
+              <div className="flex items-center gap-[10px]">
+                <MapPinIcon className="h-8 w-8 text-[#E39429]" />
+                <p className="md:text-[28px] text-[18px] uppercase">
+                  VI Crnogorske p+4/6, Nikšić
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute top-0 right-0 overflow-hidden home-cover xl:w-[60%] sm:w-[50%] w-full sm:opacity-100 opacity-40 sm:before:opacity-100 before:opacity-0">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1464.3057032676124!2d18.957918308921073!3d42.77543315990363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1689018516309!5m2!1sen!2s"
+            width="100%"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div className="w-full px-[20px] py-[20px] items-center justify-between text-white text-[14px] flex gap-[10px] flex-wrap">
+        <p>© Stan na Dan Nikšić, 2023</p>
+        <p>
+          built with 🧡 by{" "}
+          <a href="https://github.com/dumaaas" className="underline">
+            dumaaas
+          </a>
+        </p>
       </div>
     </div>
   );
