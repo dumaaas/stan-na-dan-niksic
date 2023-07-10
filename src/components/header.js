@@ -29,7 +29,7 @@ export default function Header() {
       </Link>
 
       <div className="sm:flex hidden items-center gap-[40px] text-white font-semibold bg-black bg-opacity-60 rounded-[20px] py-[16px] px-[22px]">
-        <Link href="/">Događaji</Link>
+        <Link href="/">Početna</Link>
         <Link href="/gallery">Galerija</Link>
         <Link href="/contact">Kontakt</Link>
         <Link href="/about">O nama</Link>
@@ -56,7 +56,7 @@ export default function Header() {
             } transition-all ease-in-out duration-700 relative after:text-[30px] after:transform after:rotate-[-45deg] w-full after:content-['→'] after:absolute after:right-0 after:top-[12px] py-[20px] text-[22px] font-semibold border-b-[2px] border-black`}
             href="/"
           >
-            Događaji
+            Početna
           </Link>
           <Link
             className={`${
