@@ -304,7 +304,7 @@ export default function Home() {
       <div className="md:py-[60px] py-[30px] xl:px-[80px] lg:px-[50px] px-[30px] w-full">
         <p className="flex justify-center mx-auto text-white text-3xl text-center md:pb-[80px] pb-[60px] relative">
           Recenzije
-          <div className="absolute bottom-[70px] h-[4px] bg-[#e39429] w-[80px] rounded-[20px]"></div>
+          <div className="absolute md:bottom-[70px] bottom-[50px] h-[4px] bg-[#e39429] w-[80px] rounded-[20px]"></div>
         </p>{" "}
         <div>
           <Slider
@@ -461,7 +461,7 @@ export default function Home() {
       <div className="md:py-[60px] py-[30px] xl:px-[80px] lg:px-[50px] px-[30px] w-full">
         <p className="flex justify-center mx-auto text-white text-3xl text-center md:pb-[100px] pb-[60px] relative">
           Sadržaji objekta
-          <div className="absolute bottom-[90px] h-[4px] bg-[#e39429] w-[120px] rounded-[20px]"></div>
+          <div className="absolute md:bottom-[90px] bottom-[50px] h-[4px] bg-[#e39429] w-[120px] rounded-[20px]"></div>
         </p>
         <div className="flex flex-row gap-[40px] flex-wrap justify-between md:w-[80%] w-full mx-auto">
           <div className="flex flex-col gap-[40px]">
@@ -848,7 +848,7 @@ export default function Home() {
       <div className="md:py-[60px] py-[30px] xl:px-[80px] lg:px-[50px] px-[30px] w-full">
         <p className="flex justify-center mx-auto text-white text-3xl text-center md:pb-[80px] pb-[60px] relative">
           Kućni red
-          <div className="absolute bottom-[70px] h-[4px] bg-[#e39429] w-[80px] rounded-[20px]"></div>
+          <div className="absolute md:bottom-[70px] bottom-[50px] h-[4px] bg-[#e39429] w-[80px] rounded-[20px]"></div>
         </p>
         <div className="px-[24px] py-[12px] border-2 border-[#e39429] rounded-[8px] flex flex-col text-white lg:w-[70%] w-full mx-auto">
           <div className="flex sm:flex-row flex-col gap-[20px] border-b border-[#e39429] py-[20px] justify-between justify-between">
