@@ -302,7 +302,10 @@ export default function Home() {
         </div>
       </div>
       <div className="md:py-[60px] py-[30px] xl:px-[80px] lg:px-[50px] px-[30px] w-full">
-        <h2 className="text-white text-3xl text-center pb-[40px]">Recenzije</h2>
+        <p className="flex justify-center mx-auto text-white text-3xl text-center md:pb-[80px] pb-[60px] relative">
+          Recenzije
+          <div className="absolute bottom-[70px] h-[4px] bg-[#e39429] w-[80px] rounded-[20px]"></div>
+        </p>{" "}
         <div>
           <Slider
             {...settings}
@@ -456,9 +459,10 @@ export default function Home() {
         </div>
       </div>
       <div className="md:py-[60px] py-[30px] xl:px-[80px] lg:px-[50px] px-[30px] w-full">
-        <h2 className="text-white text-3xl text-center md:pb-[80px] pb-[60px]">
+        <p className="flex justify-center mx-auto text-white text-3xl text-center md:pb-[100px] pb-[60px] relative">
           Sadržaji objekta
-        </h2>
+          <div className="absolute bottom-[90px] h-[4px] bg-[#e39429] w-[120px] rounded-[20px]"></div>
+        </p>
         <div className="flex flex-row gap-[40px] flex-wrap justify-between md:w-[80%] w-full mx-auto">
           <div className="flex flex-col gap-[40px]">
             <div className="flex flex-col gap-[8px]">
@@ -842,9 +846,10 @@ export default function Home() {
         </div>
       </div>
       <div className="md:py-[60px] py-[30px] xl:px-[80px] lg:px-[50px] px-[30px] w-full">
-        <h2 className="text-white text-3xl text-center md:pb-[80px] pb-[60px]">
+        <p className="flex justify-center mx-auto text-white text-3xl text-center md:pb-[80px] pb-[60px] relative">
           Kućni red
-        </h2>
+          <div className="absolute bottom-[70px] h-[4px] bg-[#e39429] w-[80px] rounded-[20px]"></div>
+        </p>
         <div className="px-[24px] py-[12px] border-2 border-[#e39429] rounded-[8px] flex flex-col text-white lg:w-[70%] w-full mx-auto">
           <div className="flex sm:flex-row flex-col gap-[20px] border-b border-[#e39429] py-[20px] justify-between justify-between">
             <div className="flex flex-row items-center gap-[12px] ">
