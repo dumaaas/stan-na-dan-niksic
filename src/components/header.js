@@ -14,7 +14,7 @@ export default function Header() {
   }, [router.asPath]);
 
   return (
-    <div className="fixed top-0 left-0 z-[100001] flex items-center justify-between w-full xl:px-[80px] lg:px-[50px] px-[30px] py-[20px]">
+    <div className="fixed top-0 left-0 z-[999] flex items-center justify-between w-full xl:px-[80px] lg:px-[50px] px-[30px] py-[20px]">
       <Link href="/">
         <svg
           xmlns="http://www.w3.org/2000/svg"

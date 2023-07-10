@@ -185,3 +185,7 @@ body {
     opacity: 0;
   }
 }
+
+.react-images__view img {
+  margin: 0 auto;
+}
