@@ -1,5 +1,4 @@
 import { useState, useCallback } from "react";
-import "react-indiana-drag-scroll/dist/style.css";
 import "react-image-lightbox/style.css";
 import Gallery from "react-photo-gallery";
 import { images } from "@/images";
